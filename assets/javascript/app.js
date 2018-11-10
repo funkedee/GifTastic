@@ -16,7 +16,7 @@ renderButtons();
 $(document.body).on("click", ".animal_button", function () {
 
     // display text
-    $("#gif-text").text("Click a Gif to play/pause, it might take a second");
+    $("#gif-text").text("Click a GIF to play/pause, it might take a second");
 
     // make query url
     var animal = $(this).text();
